@@ -13,9 +13,6 @@ f3 = z / x + y
     where x = 7
           y = negate x
           z = y * 10
-waxVim :: Double
-f x = x / 5
-  where x = 2
 
 waxOn ::  Integer
 waxOn = x * 5
@@ -23,11 +20,9 @@ waxOn = x * 5
           x = y ^ 2
           y = z + 8
 
+triple :: Num a => a -> a
 triple x = x * 3
 
 waxOff :: Num a => a -> a
 waxOff x = triple x ^ 2
     where x = x + 1
-
-troople x = xy
-

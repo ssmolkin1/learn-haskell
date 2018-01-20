@@ -14,15 +14,12 @@ f3 = z / x + y
           y = negate x
           z = y * 10
 
-waxOn ::  Integer
+waxOn ::  Initeger
 waxOn = x * 5
     where z = 7
           x = y ^ 2
           y = z + 8
 
 triple :: Num a => a -> a
-triple x = x * 3
 
-waxOff :: Num a => a -> a
-waxOff x = triple x ^ 2
-    where x = x + 1
+triple x = x * 3
