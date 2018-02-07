@@ -1,0 +1,3 @@
+eats x y = x
+
+(eats 5 6)

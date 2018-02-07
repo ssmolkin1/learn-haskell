@@ -7,7 +7,7 @@ e1d = False
 e1e = length [1..5]
 e1f = length [1..4] > length "TACOCAT"
 
-w    =  y * 10
+w = y * 10
   where y = x + 5
         x = 5
 
